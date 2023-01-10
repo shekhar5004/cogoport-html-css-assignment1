@@ -1,0 +1,379 @@
+*
+{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: "system-ui", "-apple-system", "BlinkMacSystemFont", "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Open Sans", "Helvetica Neue", "sans-serif";
+    /* fon: '"Ubuntu",sans-serif' */
+    /* position: relative; */
+}
+.start
+{
+    background-color: white;
+    width: 100%;
+    position: sticky;
+    top: 0px;
+    left: 0px;
+    z-index: 100;
+    /* margin-bottom: 90px; */
+}
+.start-topbar{
+    
+    
+ 
+}
+.navbar
+{
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+  /* padding-left: auto;
+ padding-right: auto; */
+}
+.logo
+{
+  color: red;
+  font-size: 20px;   
+}
+.navbar ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 0 20px;
+   
+}
+.second-portion
+{
+    display: flex;
+    background-color:  #fbdc00;
+    /* z-index: 1001; */
+    align-items: center;
+    height : 32rem ;
+}
+.second-portion-text
+{
+    /* display: inline-block; */
+    /* width: 70%; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: "PT Sans", sans-serif;
+    font-size: 16px;
+    /* line-height: 2em; */
+    margin-left: auto;
+    width: 32%;
+}
+.second-portion-image
+{
+    /* display: inline-block; */
+    margin: 0 auto;
+    width: 50%;
+}
+.lady-image
+{
+    margin: 0 auto;
+    /* padding-top:0px; */
+    width: 80%;
+    height: 500px;
+}
+.third-portion
+{
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+.third-portion ul {
+    width: 100%;
+    display: table;
+    table-layout: fixed;
+    font-size: 20px;
+    line-height: 1.2;
+}
+  
+.third-portion ul li {
+    display: table-cell;
+    width: auto;
+    text-align: center;
+}
+.fourth-portion{
+    padding-top: 80px;
+    margin-top: 20px;
+    margin-bottom: -20px;
+    display: flex;
+    align-items: center;   
+    justify-content: space-evenly;
+    line-height: 1.5;
+    background-color: #fffef2;
+
+}
+.fourth-portion-text-one
+{
+    width: 70%;
+}
+.fourth-portion img
+{
+    width: 500px;
+    height: 100%;
+}
+.fifth-portion
+{
+    margin-top: 0px;
+    background-color: #fffef2;  
+}
+.fifth-centre
+{
+    text-align: center;
+}
+.fifth-portion-one
+{
+    /* display: flex; */
+    /* justify; */
+}
+.fifth-portion-whole
+{
+    
+    /* align-items: stretch; */
+    /* justify-content: space-around; */
+    /* margin-right:  80px; */
+    /* width: 50%; */
+}
+.fifth-portion-whole h2
+{
+    margin-top: 0px;
+    padding-top: 25%;
+    padding-left: 20%;
+}
+/* .fifth-portion-one
+{
+    display : flex;
+    align-items: center;
+    justify-content: space-between;
+} */
+
+/* .fifth-portion-two
+{
+    display : flex;
+    align-items: center;
+} */
+.fifth-spacing-one
+{
+ padding: 30px;
+}
+.fifth-spacing-two
+{
+ padding: 20px;
+}
+.sixth-portion
+{
+    margin-top: 37px;
+    margin-bottom: 60px;
+    /* margin-bottom: 10px; */
+}
+.sixth-portion-two
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+    top: 20px;
+}
+.sixth-portion-two img
+{
+    width: 100px;
+    height: 100%;
+}
+.seventh-portion
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color:  #fbdc00;
+    height: 120px;
+    margin-top: 40px;
+    width: 100%;
+}
+.seventh-portion h2
+{
+    font-size: 28px;
+    line-height: 1.2;
+}
+.seventh-portion button
+{
+    min-width: 72px;
+    height: 36px;
+    padding: 4px 16px;
+    font-size: 14px;
+    background-color: red;
+    color: white;
+    border-radius: 4px;
+}
+.eight-portion
+{
+    margin-top: 37px;
+}
+.eight-portion-two
+{
+   display: flex;
+   justify-content: center; 
+   align-items: center;
+   margin-top: 30px;
+   margin-bottom: 10px;
+   font-size: 14px;
+   font-weight: 700;
+}
+.eight-portion-two button
+{
+   width: 200px;
+   height: 36px;
+   padding: 20px;
+   box-sizing: border-box;
+   border-radius: 20px;
+   margin: 0 20px; 
+}
+.ninth-portion-one
+{
+  display: inline-block;
+  width: 33%;
+}
+.ninth-portion-one-one
+{
+    background-color: white;
+    border: 1px solid transparent;
+    box-shadow: 0 1px 6px rgb(169 188 218 / 65%);
+    display: inline-block;
+    color: #434343;
+    width: 20%;
+    margin-left: 8%;
+    margin-bottom: 50px;
+    border-radius:  8px;
+}
+.ninth-portion-two
+{
+    margin-left: 29%;
+    margin-right: 3%;
+    margin-top: -86px;
+}
+.tenth-portion
+{
+    background: #fffef3;
+    height : 15rem;
+    padding-top: 1rem;
+}
+.tenth-portion-two
+{
+    /* margin-top: 20px; */
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.tenth-portion-two img
+{
+  display: inline-block;
+ 
+}
+.eleventh-portion
+{
+    margin-top: 40px; 
+    display: flex;
+    justify-content: space-around;
+}
+.eleventh-portion-one
+{
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  /* text-align: center; */
+  padding-top: 6%; 
+  /* margin-bottom: auto;  */
+}
+.eleventh-portion-two img
+{
+    width: 280px;
+    height: 360px;
+    object-fit: contain;
+}
+.tweleth-portion
+{
+    margin-left: 0;
+    margin-right: 0;
+    width: 100%;
+}
+.thirteenth-portion
+{
+    display: flex;
+    justify-content: space-around;
+    background-color: red;
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
+    margin-top: -4px;
+}
+.fourteenth-portion
+{
+    margin-top: 50px;
+    
+}
+.fourteenth-portion-one
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.fifteenth-portion
+{
+    background-color: #fbdc00;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 35px;
+}
+.fifteenth-portion-text
+{
+
+}
+.sixteenth-portion
+{
+    display: flex;
+    justify-content: flex-start;
+    background-color: #fbdc00;
+    margin-top: -22px;
+
+}
+.sixteenth-portion-one p
+{
+  padding-bottom: 10px;  
+  color : #2c3e50;
+  font-size: 0.9rem;  
+}
+.seventeenth-portion
+{
+ display: flex;
+ justify-content: space-between;
+ background-color: #ebbe00;
+}
+.seventeenth-portion-one p
+{
+    padding-top: 28px;
+}
+.eightteenth-portion
+{
+    background-color: #ebbe00;  
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+    font-size: 0.8rem;
+}
+.eightteenth-portion-one
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.eightteenth-portion-two
+{
+    padding-right: 55px;
+}
+/* 
+
